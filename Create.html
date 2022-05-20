@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/bulma.css">
+    <link rel="stylesheet" href="./Styles/Styles.css">
+</head>
+<body>
+    <main class="has-background-black">
+        <nav class="navbar has-background-black" role="navigation" aria-label="main navigation" id="navbar">
+            <div class="navbar-brand">
+                 <a class="navbar-item has-text-danger" href="index.html">
+                      <strong>Technocast</strong>
+                 </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu has-background-black">
+                 <div class="navbar-end mr-6">
+                      <div class="navbar-item">
+                           <div class="dropdown is-hoverable">
+                                <div class="dropdown-trigger">
+                                     <a href="Profile.html" class="avatar ml-5 mr-5">
+                                          <picture>
+                                               <img src="./Svgs/profile_pic8.svg" alt="" >
+                                          </picture>
+                                     </a> </div>
+                                <div class="dropdown-menu mt-0" id="dropdown-menu4" role="menu">
+                                     <div class="dropdown-content">
+                                          <div class="dropdown-item">
+                                               <p><a href="" class="link">Profile</a></p>
+                                          </div>
+                                          <div class="dropdown-item">
+                                               <span class="icon-text">
+                                                    <p><a href="" class="link">Upgrade to Pro</a></p>
+                                                    <span class="icon">
+                                                         <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                              height="24" viewBox="0 0 24 24" fill="none"
+                                                              stroke="currentColor" stroke-width="2"
+                                                              stroke-linecap="round" stroke-linejoin="round"
+                                                              class="feather feather-star">
+                                                              <polygon
+                                                                   points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                                              </polygon>
+                                                         </svg> </span>
+                                               </span>
+                                          </div>
+                                          <div class="dropdown-item">
+                                               <p><a href="" class="link">Settings</a></p>
+                                          </div>
+                                          <hr class="dropdown-divider">
+                                          <div class="dropdown-item">
+                                               <a href="" aria-haspopup="true" class="link">                                                  <p class="has-text-danger">Logout</p>
+                                               </a>
+                                          </div>
+                                     </div>
+                                </div>
+                           </div>
+                      </div>
+                      <div class="navbar-item">
+                           <div class="field">
+                                <p class="control has-icons-left">
+                                     <input class="input search-box" type="text" placeholder="Search">
+                                     <span class="icon is-small is-left">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                               viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                               stroke-linecap="round" stroke-linejoin="round"
+                                               class="feather feather-search">
+                                               <circle cx="11" cy="11" r="8"></circle>
+                                               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                          </svg> </span>
+                                </p>
+                           </div>
+                      </div>
+                     
+                 </div>
+            </div>
+       </nav>
+       <div class="field">
+        <div class="box">
+            <img class="image cover-art" src="./Svgs/Mars.svg" width="150" height="150" alt="">
+            <input type="text" name=""class="input FS mt-2" id="" placeholder="Title" aria-placeholder="Title">
+            <textarea name="Description" id="" cols="30" rows="10" class="textarea mt-3" placeholder="Description" aria-placeholder="Description"></textarea>
+        </div>
+       </div>
+       
+    </main>
+</body>
+<script src="./Js/navbar.js"></script>
+</html>

@@ -2,7 +2,7 @@
 /*I just don't know why i don't like commenting on my code👨🏾‍💻*/
 /*Me from a year ago.*/
 :root {
-  --acent-color: #E74364;
+  --acent-color: #F14668;
 }
 
 .userbtn {
@@ -74,15 +74,11 @@
 
 .pfp-avatar {
   position: relative;
-  border-radius: 100px;
   margin-left: 3.5rem;
   margin-top: 2.5rem;
   height: 150px;
   width: 150px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
+  border-radius: 100px;
 }
 
 .btn-text {
@@ -96,7 +92,7 @@
 }
 
 .btn-text .logo-text {
-  color: #E74364 !important;
+  color: #F14668 !important;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 24px;
@@ -112,10 +108,6 @@
   width: 150px;
   height: 150px;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
 }
 
 .btn-text .login-container {
@@ -133,22 +125,12 @@
 }
 
 .btn-text .cover-art {
-  width: 150px;
-  height: 150px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  border-radius: 20px;
 }
 
 .btn-text .search-box {
   width: 200px;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -170,7 +152,7 @@
 }
 
 .btn-text .link-danger {
-  color: #E74364;
+  color: #F14668;
 }
 
 .btn-text .link-danger:hover::after {
