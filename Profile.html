@@ -11,91 +11,113 @@
 </head>
 
 <body>
-     <nav class="navbar has-background-black" role="navigation" aria-label="main navigation" id="navbar">
-          <div class="navbar-brand">
-               <a class="navbar-item" href="index.html">
-                    <span class="logo-text">Technocast</span>
-               </a>
-          </div>
-          <div id="navbarBasicExample" class="navbar-menu has-background-black">
-               <div class="navbar-end mr-6">
-                    <div class="navbar-item">
-                         <div class="dropdown is-hoverable">
-                              <div class="dropdown-trigger">
-                                   <a href="Profile.html" class="avatar ml-5 mr-5">
-                                        <picture>
-                                             <img src="./Svgs/profile_pic8.svg" alt="" class="nav-ava">
-                                        </picture>
-                                   </a> </div>
-                              <div class="dropdown-menu mt-0" id="dropdown-menu4" role="menu">
-                                   <div class="dropdown-content">
-                                        <div class="dropdown-item">
-                                             <p><a href="" class="link">Profile</a></p>
-                                        </div>
-                                        <div class="dropdown-item">
-                                             <span class="icon-text">
-                                                  <p><a href="" class="link">Upgrade to Pro</a></p>
-                                                  <span class="icon">
-                                                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                            stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round" class="feather feather-star">
-                                                            <polygon
-                                                                 points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-                                                            </polygon>
-                                                       </svg> </span>
-                                             </span>
-                                        </div>
-                                        <div class="dropdown-item">
-                                             <p><a href="" class="link">Settings</a></p>
-                                        </div>
-                                        <hr class="dropdown-divider">
-                                        <div class="dropdown-item">
-                                             <p><a href="Logout.html" class="link-danger">Logout</a></p>
+     <main class="has-background-black">
+          <nav class="navbar has-background-black" role="navigation" aria-label="main navigation" id="navbar">
+               <div class="navbar-brand">
+                    <a class="navbar-item has-text-danger" href="index.html">
+                         Technocast
+                    </a>
+               </div>
+               <div id="navbarBasicExample" class="navbar-menu has-background-black">
+                    <div class="navbar-end mr-6">
+                         <div class="navbar-item">
+                              <div class="dropdown is-hoverable">
+                                   <div class="dropdown-trigger">
+                                        <a href="Profile.html" class="avatar ml-5 mr-5">
+                                             <picture>
+                                                  <img src="./Svgs/profile_pic8.svg" alt="" class="nav-ava">
+                                             </picture>
+                                        </a> </div>
+                                   <div class="dropdown-menu mt-0" id="dropdown-menu4" role="menu">
+                                        <div class="dropdown-content">
+                                             <div class="dropdown-item">
+                                                  <p><a href="" class="link">Profile</a></p>
+                                             </div>
+                                             <div class="dropdown-item">
+                                                  <span class="icon-text">
+                                                       <p><a href="" class="link">Upgrade to Pro</a></p>
+                                                       <span class="icon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                                 stroke-width="2" stroke-linecap="round"
+                                                                 stroke-linejoin="round" class="feather feather-star">
+                                                                 <polygon
+                                                                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                                                 </polygon>
+                                                            </svg> </span>
+                                                  </span>
+                                             </div>
+                                             <div class="dropdown-item">
+                                                  <p><a href="" class="link">Settings</a></p>
+                                             </div>
+                                             <hr class="dropdown-divider">
+                                             <div class="dropdown-item">
+                                                  <p><a href="Logout.html" class="link-danger">Logout</a></p>
+                                             </div>
                                         </div>
                                    </div>
                               </div>
                          </div>
-                    </div>
-                    <div class="navbar-item">
-                         <div class="field">
-                              <p class="control has-icons-left">
-                                   <input class="input search-box" type="text" placeholder="Search">
-                                   <span class="icon is-small is-left">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                             stroke-linecap="round" stroke-linejoin="round"
-                                             class="feather feather-search">
-                                             <circle cx="11" cy="11" r="8"></circle>
-                                             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                        </svg> </span>
-                              </p>
+                         <div class="navbar-item">
+                              <div class="field">
+                                   <p class="control has-icons-left">
+                                        <input class="input search-box" type="text" placeholder="Search">
+                                        <span class="icon is-small is-left">
+                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                  stroke-linecap="round" stroke-linejoin="round"
+                                                  class="feather feather-search">
+                                                  <circle cx="11" cy="11" r="8"></circle>
+                                                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                             </svg> </span>
+                                   </p>
+                              </div>
+                         </div>
+                         <div class="navbar-item">
+                              <a href="Create.html" class="create">
+                                   <button class="button is-danger">
+                                        <p class="btn-text">Create</p>
+                                   </button>
+                              </a>
                          </div>
                     </div>
-                    <div class="navbar-item">
-                         <a href="Create.html" class="create">
-                              <button class="button is-danger">
-                                   <p class="btn-text">Create</p>
-                              </button>
-                         </a>
+               </div>
+          </nav>
+          <div class="profile-container">
+               <picture>
+                    <img src="./Svgs/profile_pic8.svg" alt="" class="pfp-avatar">
+               </picture>
+               <h2 class="title is-2 name ">Sandra Kosby</h2>
+               <button class="button is-danger is-light userbtn">Follow</button>
+               <h5 class="subtitle is-5 username mb-2">Sandy_Cheeks</h5>
+               <p class="title is-4 bio my-1 mr-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque.</p>
+               <h5 class="title is-5">Joined <span class="date">25th December 2021</span></h5>
+               <div class="userstat mr-7">
+                    <div class="level">
+                         <div class="level-item has-text-centered">
+                           <div>
+                             <p class="heading">Reputation</p>
+                             <p class="title">3,456</p>
+                           </div>
+                         </div>
+                         <div class="level-item has-text-centered">
+                           <div>
+                             <p class="heading">Followers</p>
+                             <p class="title">123</p>
+                           </div>
+                         </div>
+                         <div class="level-item has-text-centered">
+                           <div>
+                             <p class="heading">Following</p>
+                             <p class="title">456K</p>
+                           </div>
+                         </div>
                     </div>
                </div>
           </div>
-     </nav>
-     <div class="profile-container">
-          <picture>
-               <img src="./Svgs/profile_pic8.svg" alt="" class="pfp-avatar">
-          </picture>
-          <h2 class="title is-2 name ">Sandra Kosby</h2>
-          <button class="button is-danger is-light userbtn">Follow</button>
-          <h5 class="subtitle is-5 username mb-2">Sandy_Cheeks</h5>
-          <p class="title is-4 bio my-2 mr-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque.</p>
-          <h5 class="title is-5">Joined <span class="date">25th December 2021</span></h5>
-          <div class="userstat">
-               <p class="subtitle">Reputation</p><span>110k</span>
-          </div>
-     </div>
-
+     
+     </main>
 </body>
-
+<script src="./Js/bulma.js"></script>
+<script src="./Js/navbar.js"></script>
 </html>
