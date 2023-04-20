@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Technocast</h1>
+    <div id="form"
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+      "
+    >
+      <section>
+        login
+        <input type="email" placeholder="email" id="email" />
+        <input type="password" placeholder="password" id="password" />
+
+        <button id="signin">login</button>
+      </section>
+      <section>
+       Register
+        <input type="email" placeholder="email" id="signUpEmail" />
+        <input type="Password" placeholder="password" id="signUpPassword" />
+
+        <button id="signup">sign-up</button>
+      </section>
+      <nav id="navbar">
+        <ul style="display: flex; justify-content: space-between; gap: 40px">
+          <li><a href="/dashboard.html">dashboard</a></li>
+          <li ><a href="#">community</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
