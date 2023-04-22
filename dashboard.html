@@ -6,7 +6,28 @@
     <title>Dashboard</title>
   </head>
 
-  <body>
+  <body> <div id="form"
+    style="
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+    "
+  >
+    <section>
+      login
+      <input type="email" placeholder="email" id="email" />
+      <input type="password" placeholder="password" id="password" />
+
+      <button id="signin">login</button>
+    </section>
+    <section>
+     Register
+      <input type="email" placeholder="email" id="signUpEmail" />
+      <input type="Password" placeholder="password" id="signUpPassword" />
+
+      <button id="signup">sign-up</button>
+    </section>
     <h1>helloo<span id="userName"></span>, welcome back</h1>
     <a href="/index.html" id="signout"> Logout</a>
     <script type="module" src="app.js"></script>
