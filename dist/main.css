@@ -1,0 +1,46 @@
+.nav-link {
+  color: #fff !important;
+}
+
+nav, .hero-section, footer {
+  background-color: #585656 !important;
+}
+
+.navbar-brand, .st {
+  color: #FF479D !important;
+  text-decoration: none;
+}
+
+.btn-primary,
+.btn-outline-primary {
+  background-color: #FF479D;
+}
+
+input {
+  outline: none;
+  background-color: blue;
+}
+
+input:focus {
+  outline: 2px solid #FF479D !important;
+}
+
+.retro-button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.retro-button:hover {
+  background-color: #fff;
+  color: #f44336;
+  border: 2px solid #f44336;
+  cursor: pointer;
+}

@@ -5,8 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./dist/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
+<style>
+    body,nav {
+      background-image: url("./assets/zoo_monkey-ZBi4YhdiyPo-unsplash.jpg");
+      background-size: cover;
+    }
+  </style>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <button class="btn btn-danger retro-button">Click me</button>
+          </div>
+        </div>
+      </nav>
+      
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsum debitis harum, aliquid, inventore cupiditate excepturi et, possimus expedita eaque doloribus quae libero! Sunt, totam quaerat! Nisi eaque debitis voluptatem.</p>
+          </div>
+          <div class="col-md-6">
+            <form>
+                <div class="row">
+                    <h3 class="text">Become an influencer for free</h3>
+                    <h1 class="text">Create new account</h1>
+                    <p class="text">Already an influencer? <a class="st" href="./login.html">Log in</a></p>
+                  <div class="col">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text">First Name</span>
+                      <input type="text" class="form-control" aria-label="First Name" id="first-name" name="first-name">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text">Last Name</span>
+                      <input type="text" class="form-control" aria-label="Last Name" id="last-name" name="last-name">
+                    </div>
+                  </div>
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text">Email</span>
+                  <input type="email" class="form-control" aria-label="Email" id="email" name="email">
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text">Password</span>
+                  <input type="password" class="form-control" aria-label="Password" id="password" name="password">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Retype-password</span>
+                    <input type="password" class="form-control" aria-label="Password" id="password" name="password">
+                  </div>
+                <button type="submit" class="btn">Proceed</button>
+              </form>
+          </div>
+        </div>
+      </div>      
 </body>
 </html>
